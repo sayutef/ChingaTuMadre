@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Att:Jared</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="malo.png"/>
+</head>
+<body>
+    <div class="center">
+        <h1 class="tittle">Dale click al boton porfa</h1>
+    </div>
+    
+    <div class="center-btn">
+        <button class="btn-click" onclick="openModal()">Click aqui!</button>
+    </div>
+
+    <div id="overlay" class="modal-overlay"></div>
+
+    <div id="modal" class="modal-chinga-tu-madre">
+        <h1 class="title-modal">Chinga tu madre</h1>
+        <img src="malo.png" alt="chinga-tu-madre" class="img-modal"/>
+        <button onclick="openModalOtraVez()" class="btn-cerrar-modal">Cerrar</button>
+    </div>
+
+    <div id="modal-vuelve" class="modal-chinga-tu-madre">
+        <h1 class="title-modal">Vuelve a chingar a tu madre</h1>
+        <img src="malo.png" alt="chinga-tu-madre" class="img-modal"/>
+        <button onclick="closeModal()" class="btn-cerrar-modal">Cerrar</button>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
