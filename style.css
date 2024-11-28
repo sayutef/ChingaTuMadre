@@ -89,3 +89,18 @@
 .btn-cerrar-modal:hover {
     background-color: rgb(181, 29, 29);
 }
+
+@media(max-width : 768px) {
+    .btn-click {
+        width: 60%;
+        font-size: 24px;
+    }
+
+    .modal-chinga-tu-madre {
+        width: 80%;
+    }
+
+    .img-modal {
+        width: 300px;
+    }
+}
